@@ -9,7 +9,8 @@ public class Main {
         try {
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
-                String data = scanner.nextLine();
+                String data = scanner.nextLine();       // Leser neste linje
+                String[] parts = data.split(":"); // Deler opp linjen i to deler hvor ":" er skillet
                 System.out.println(data);
             }
             scanner.close();
