@@ -11,7 +11,11 @@ public class Main {
             while (scanner.hasNextLine()) {
                 String data = scanner.nextLine();       // Leser neste linje
                 String[] parts = data.split(":"); // Deler opp linjen i to deler hvor ":" er skillet
-                System.out.println(data);
+                if (parts.length == 2) {
+                    String action = parts[0];
+                    String text = parts[1];
+                    System.out.println("Text: [" + text + "] ran action [" + action + "] with result [" + text + "]");
+                }
             }
             scanner.close();
         } catch (Exception e) {
