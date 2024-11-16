@@ -65,7 +65,6 @@ public class Main {
         for (int i = 0; i < text.length(); i++) {
             word.add(String.valueOf(text.charAt(i))); // Legger til en bokstav for hver iterasjon, antall iterasjoner er lik antall bokstaver i ordet
         }
-
         return word.size();
     }
 
