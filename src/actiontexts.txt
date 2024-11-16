@@ -100,4 +100,3 @@ REVERSE:feather
 WHITESPACE:wing wing
 UNIQUE_COUNT:root
 UNIQUE_COUNT:potato
-CAPITALIZE:funny
